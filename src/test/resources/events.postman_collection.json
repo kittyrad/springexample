@@ -1,0 +1,77 @@
+{
+	"id": "fa1fb6b6-f7fa-2545-f2ff-a4c94e8a81f8",
+	"name": "events",
+	"description": "",
+	"order": [
+		"c5055331-ccbc-176d-06eb-0b5fef1b0dba",
+		"e5af362d-f139-1931-38b5-cfe0c20d4f68"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1523205729268,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "c5055331-ccbc-176d-06eb-0b5fef1b0dba",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/events/save",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1523206746781,
+			"name": "http://localhost:8080/events/save",
+			"description": "",
+			"collectionId": "fa1fb6b6-f7fa-2545-f2ff-a4c94e8a81f8",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Event1\",\n\t\"category\":\"Movie\"\n}"
+		},
+		{
+			"id": "e5af362d-f139-1931-38b5-cfe0c20d4f68",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/buyers/saveBuyer",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fa1fb6b6-f7fa-2545-f2ff-a4c94e8a81f8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/buyers/saveBuyer",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1523206628709,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"Cris\",\n\t\"age\":\"20\",\n\t\"favoriteFilm\": \"Luci\"\n}"
+		}
+	]
+}
