@@ -27,6 +27,8 @@ public class BuyerTo {
 
 	private String favoriteSport;
 
+	private String type;
+
 	public String getName() {
 		return name;
 	}
@@ -105,5 +107,13 @@ public class BuyerTo {
 
 	public void setCnp(String cnp) {
 		this.cnp = cnp;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
 	}
 }
