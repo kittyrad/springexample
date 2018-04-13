@@ -55,23 +55,22 @@
 			],
 			"url": "http://localhost:8080/buyers/saveBuyer",
 			"queryParams": [],
+			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"preRequestScript": null,
 			"method": "POST",
-			"collectionId": "fa1fb6b6-f7fa-2545-f2ff-a4c94e8a81f8",
 			"data": [],
 			"dataMode": "raw",
-			"name": "http://localhost:8080/buyers/saveBuyer",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1523206628709,
 			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"rawModeData": "{\n\t\"name\":\"Cris\",\n\t\"age\":\"20\",\n\t\"favoriteFilm\": \"Luci\"\n}"
+			"time": 1523600899984,
+			"name": "http://localhost:8080/buyers/saveBuyer",
+			"description": "",
+			"collectionId": "fa1fb6b6-f7fa-2545-f2ff-a4c94e8a81f8",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Cris\",\n\t\"age\":\"20\",\n\t\"favoriteFilm\": \"Luci\",\n\t\"categories\": [\"Sport\",\"Film\"],\n\t\"cnp\":\"2\",\n\t\"type\":\"film\"\n}"
 		}
 	]
 }
